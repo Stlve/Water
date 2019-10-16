@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opening"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="290dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="#467233A5"
+        android:translationY="60dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="用户名"
+            android:textColor="@android:color/background_light"
+            android:translationX="30dp"
+            android:translationY="135dp"
+            />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@android:color/background_light"
+            android:textSize="36sp"
+            android:translationX="90dp"
+            android:translationY="30dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="密码"
+            android:textColor="@android:color/background_light"
+            android:translationX="30dp"
+            android:translationY="175dp"
+            />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#63FFFFFF"
+            android:text="登录"
+            android:textColor="@android:color/background_light"
+            android:translationY="70dp"
+             />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="#798CAAD0"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:translationX="100dp"
+            android:translationY="170dp"
+            tools:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="#2B2B2B"
+            android:translationX="100dp"
+            android:translationY="130dp" />
+
+
+    </FrameLayout>
+</LinearLayout>

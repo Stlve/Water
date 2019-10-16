@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="78dp"
+        android:layout_height="35dp"
+        android:text="返回"
+        android:translationX="10dp"
+        android:translationY="10dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#28A9A9A9"
+        android:gravity="center"
+        android:text="往期对战情况"
+        android:textColor="@android:color/background_light"
+        android:translationY="15dp" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="#29A9A9A9"
+        android:translationY="25dp" >
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="78dp"
+        android:layout_height="35dp"
+        android:text="返回"
+        android:translationX="10dp"
+        android:translationY="10dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="排行榜"
+        android:textColor="#B4FFFFFF"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/list_view2"
+        android:layout_width="600dp"
+        android:layout_height="280dp"
+        android:transformPivotY="10dp"
+        android:translationX="70dp"
+        android:translationY="15dp" />
+
+</LinearLayout>
